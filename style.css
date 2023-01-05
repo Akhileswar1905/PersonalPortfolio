@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  /* position: absolute; */
+  background-color: rgb(39, 37, 37);
+  width: 250px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  transition: transform 0.1s ease-in;
+}
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.main {
+  font-family: "Josefin Sans", sans-serif;
+  /* background-color: yellow; */
+  padding: 12px;
+  width: 85vw;
+  color: white;
+  background-color: black;
+}
+
+.sidebar nav {
+  padding: 50px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(206, 199, 199);
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a:hover {
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: green; */
+  height: 78vh;
+  width: 80vw;
+  margin: 65px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.devPic img {
+  height: 78vh;
+}
+
+.hi {
+  font-size: 2.5em;
+}
+
+.name {
+  font-size: 3em;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: yellow;
+}
+
+.info {
+  font-size: 2.5em;
+}
+
+.aboutme {
+  margin-top: 12px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.buttons button {
+  font-size: 0.75em;
+  margin-top: 34px;
+  padding: 14px;
+  border-radius: 12px;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons button a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+.contactform {
+  padding-top: 120px;
+}
+.contactform form {
+  padding: 0 40px;
+}
+.contactform form div {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.contactform form div input {
+  width: 50vw;
+}
+
+.hamburger {
+  align-content: center;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+}
+
+.ham {
+  padding: 11px;
+  width: 35px;
+  /* background-color: rgb(39, 37, 37); */
+}
+
+.cross {
+  width: 14px;
+  margin-top: 18px;
+  margin-left: 210px;
+}
+
+.sidebarClose {
+  transform: translate(-450px, 0);
+  position: absolute;
+}
+
+@media (max-width: 850px) {
+  .sidebar {
+    /* transform: translate(-450px, 0); */
+    position: absolute;
+  }
+  .devInfo {
+    font-size: 13px;
+  }
+  .container {
+    height: 100vh;
+    background-color: black;
+  }
+  .devPic {
+    display: none;
+  }
+  .main {
+    margin: 0 34px;
+  }
+  /* .ham {
+    display: none;
+  } */
+}

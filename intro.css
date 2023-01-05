@@ -1,0 +1,73 @@
+.cls {
+  margin: 14px;
+}
+h2 {
+  text-align: center;
+}
+
+ul,
+.intro p {
+  padding: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.html {
+  width: 22.5vw;
+  height: 4px;
+  background-color: red;
+}
+.css {
+  width: 16.3vw;
+  height: 4px;
+  background-color: red;
+}
+.js {
+  width: 19.5vw;
+  height: 4px;
+  background-color: red;
+}
+.py {
+  width: 26vw;
+  height: 4px;
+  background-color: red;
+}
+.java {
+  width: 20.8vw;
+  height: 4px;
+  background-color: red;
+}
+.c {
+  width: 22.7vw;
+  height: 4px;
+  background-color: red;
+}
+
+.main {
+  margin-top: 24px;
+}
+
+.total {
+  margin: 14px;
+  width: 32.5vw;
+  background-color: rgb(241, 222, 222);
+}
+
+@media (max-width: 576px) {
+  .main {
+    margin-top: 34px;
+    padding: 8px;
+  }
+  .skills {
+    align-content: center;
+  }
+  h1,
+  p {
+    /* text-align: center; */
+    font-size: 8px;
+  }
+  .total {
+    /* width: 80vw; */
+    align-content: center;
+  }
+}
